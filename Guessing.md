@@ -1,4 +1,4 @@
-'''mermaid
+```mermaid
 flowchart TD;
  Start([Start)]-->End([End)]
 import random
@@ -12,4 +12,4 @@ while(guess != randomNumber):
 		print("guess it too low")
 	guess = int(input("enter another number between 1 and 100: "))
 print("guess is right - you win!")
-'''
+```
