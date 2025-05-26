@@ -1,4 +1,5 @@
 ```mermaid
+flowchart TD;
 import random
 print("I have generated a random number between 1 and 100. \nCan you guess what it is?)
 random number = random.radiant(1, 100)
