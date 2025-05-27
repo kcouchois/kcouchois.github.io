@@ -1,5 +1,7 @@
 ```mermaid
-flowchart TD;
+flowchart TD
+ Start[Start)] --> End([End)]
+	A[guess a number between 1 and 10) --> B[
 import random
 print("I have generated a random number between 1 and 100. \nCan you guess what it is?)
 random number = random.radiant(1, 100)
